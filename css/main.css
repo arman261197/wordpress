@@ -1,0 +1,387 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	position: relative;
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.promo1 {
+	height: 870px;
+	background: url('../img/main_bg.jpg') center center/cover no-repeat;
+	padding: 38px 0 61px 0;
+}
+
+.logo .logoPNG {
+	display: block;
+	margin: 0 auto;
+	width: 83px;
+	height: 71px;
+}
+
+.logo .text {
+	color: #FFFFFF;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 9.5px;
+	margin-bottom: 53px;
+}
+
+.tittle {
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 41px;
+	text-transform: uppercase;
+	color: #F9BF3B;
+}
+
+.simple .tittle_big {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 80px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin: 20.5px 0 20.5px 0;
+}
+
+.promo1 .text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 21px;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 22.5px 0 72px 0;
+}
+
+.promo1 .text span {
+	color: #F9BF3B;
+}
+
+.btn {
+	display: block;
+	margin: 0 auto;
+	margin-top: 70px;
+	width: 313px;
+	height: 72px;
+	left: 805px;
+	top: 551px;
+	background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+	font-family: RobotoCondensed;
+	font-size: 21px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+}
+
+
+.undertext { 
+	margin-top: 70.5px;
+	text-align: center;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.arrow {
+	display: block;
+	margin: 1px auto;
+	margin-bottom: 56px;
+	width: 30px;
+	height: 19px;
+}
+
+.promo2 {
+	height: 607px;
+	padding: 88px 0 75px 0;
+	background: #EFEFEF;
+}
+
+.promo2 .tittle {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #252525;
+}
+
+.promo2 .line {
+	margin: 0 auto;
+	margin-top: 18px;
+	width: 220px;
+	height: 7px;
+	left: 851px;
+	top: 129px;
+	background: #F9BF3B;
+}
+
+.promo2 .text {
+	margin-top: 18.5px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	text-align: center;
+	color: #4A4A4A;
+}
+
+.waiting_wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 45.5px 9px 0 9px;
+}
+
+.waiting {
+	width: 340px;
+	margin-right: 43px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	text-align: center;
+	color: #4A4A4A;
+}
+
+.waitpng {
+	width: 340px;
+	height: 199px;
+}
+
+.waiting_last {
+	vertical-align: top;
+	display: inline-block;
+	width: 340px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	text-align: center;
+	color: #4A4A4A;
+}
+
+.waiting_text {
+	margin-top: 26px;
+}
+
+.promo3 {
+	height: 547px;
+	padding: 47px 0 0 0 ;
+}
+
+.container .womanPNG {
+	display: block;
+	position: absolute;
+	top: 47px;
+	left: -234px;
+	width: 868px;
+	height: 502px;
+	z-index: -1;
+}
+
+.promo3_tittle {
+	margin-left: 395px;
+	display: inline-block;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	line-height: 27px;
+	text-transform: uppercase;
+	margin-top: 108px;
+	color: #299CBD;
+}
+
+.promo3_text {
+	margin-left: 395px;
+	margin-top: 25px;
+	width: 750px;
+	height: 312px;
+	display: inline-block;
+	font-family: Roboto;
+	line-height: 27px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 17px;
+	color: #4A4A4A;
+}
+
+.promo4 {
+	min-height: 447px;
+	background: url(/img/second_bg.jpg) center center/cover no-repeat;
+	padding: 85px 0 69.5px 0;
+}
+
+.promo4_tittle {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #EFEFEF;
+}
+
+.promo4_line {
+	margin: 18px auto;
+	width: 220px;
+	height: 7px;
+	left: 851px;
+	top: 130px;
+	background: #F9BF3B;
+}
+
+.finishes_wrapper_wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 39px;
+}
+
+.finishes {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100%;
+	margin: 0 auto;
+	width: 118px;
+	height: 118px;
+	background: #B4E2FF;
+}
+
+.finishesPNG {
+	width: 67px;
+	height: 48px;
+}
+
+.finishes_text {
+	margin-top: 25px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 17px;
+	text-align: center;
+	color: #EFEFEF;
+}
+
+.promo5 {
+	height: 631px;
+	background: #EFEFEF;
+	padding: 88px 0 88px 0;
+}
+
+.Rectangle {
+	display: block;
+	margin: 0 auto;
+	width: 154px;
+	height: 174px;
+}
+
+.promo5_text {
+	margin: 45px 0 0 0;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	text-align: center;
+	color: #252525;
+}
+
+.promo5_btn {
+	display: block;
+	margin: 0 auto;
+	margin-top: 51px;
+	width: 313px;
+	height: 72px;
+	background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+	font-family: RobotoCondensed;
+	font-size: 21px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+}
+
+.promo6 {
+	height: 507px;
+	padding: 84px 0 50.5px 0;
+}
+
+.firstPNG {
+	display: block;
+	margin: 0 auto;
+	width: 342px;
+	height: 201px;
+}
+
+.promo6_text1 {
+	margin: 0 auto;
+	margin-top: 36px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #252525;
+}
+
+.promo6_text2 {
+	margin: 0 auto;
+	margin-top: 30px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 36px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #299CBD;
+}
+
+.promo6_text3 {
+	margin: 0 auto;
+	margin-top: 24.5px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	text-align: center;
+	color: #4A4A4A;
+
+}
+
+.promo7 {
+	height: 169px;
+	padding: 57px 0 69px 0;
+	background: #1A1A1A;
+}
+
+.promo7_text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	text-align: center;
+	text-decoration-line: underline;
+	color: #888888;
+}
